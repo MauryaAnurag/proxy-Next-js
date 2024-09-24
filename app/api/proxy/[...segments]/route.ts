@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import axios, { AxiosRequestConfig } from 'axios';
 
-const BASE_URL = 'https://apiforcorners.cubisysit.com';
+const BASE_URL = 'https://apiforcornershost.cubisysit.com';
 
 async function handleRequest(req: NextRequest, method: string) {
   if (req.method === 'OPTIONS') {
